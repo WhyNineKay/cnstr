@@ -1,0 +1,25 @@
+// Calculate the golden ratio
+
+// Amount of Fibonacci numbers
+set ram 100
+
+set ra 0
+set rb 1
+set rco 0
+
+set rad 1
+
+setjmpp "loop"
+// Program Counter
+add rco rad rco
+
+// Temp var
+cpy ra rtm
+cpy rb ra
+add rb rtm rb
+
+stdout rb
+div rb ra rdf
+stdout rdf endl
+
+jmpif "loop" rco < ram
