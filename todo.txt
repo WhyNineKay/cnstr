@@ -1,4 +1,0 @@
-TODO
-
-- Add label to use instead of int for jmpp
-- Add a parser as a layer between lexer and interpreter
