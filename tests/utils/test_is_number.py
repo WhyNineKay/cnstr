@@ -1,5 +1,5 @@
 import unittest
-from utils import is_number
+from src.utils import is_number
 
 class TestIsNumber(unittest.TestCase):
     def test_valid_numbers(self):

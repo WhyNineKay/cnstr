@@ -1,5 +1,5 @@
 import unittest
-from utils import smart_split
+from src.utils import smart_split
 
 class TestSmartSplit(unittest.TestCase):
     def test_no_quotes(self):
